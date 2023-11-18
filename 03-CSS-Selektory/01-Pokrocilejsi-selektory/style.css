@@ -48,3 +48,29 @@ selector[attr="val"]		element s attributem o určité hodnotě
 												^= na začátku
 												$= na konci
 */
+
+a[href$=".pdf"] {
+	padding-left: 1.5em;
+	background-image: url(images/pdf.svg);
+	background-repeat: no-repeat;
+	background-size: 1em 1em;
+	background-position: left center;
+}
+
+
+a[href$=".xls"] {
+	padding-left: 1.5em;
+	background-image: url(images/xls.svg);
+	background-repeat: no-repeat;
+	background-size: 1em 1em;
+	background-position: left center;
+}
+
+
+a[href$=".ppt"] {
+	padding-left: 1.5em;
+	background-image: url(images/ppt.svg);
+	background-repeat: no-repeat;
+	background-size: 1em 1em;
+	background-position: left center;
+}
